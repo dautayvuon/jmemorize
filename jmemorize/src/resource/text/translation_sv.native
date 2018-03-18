@@ -1,0 +1,333 @@
+#
+# This is a translation file for jMemorize (http://www.riad.de/jmemorize)
+#
+# ------------------------------------------------------------------------------
+# Author:             Magnus Bodin <magnus@bodin.org>
+# Language:           Swedish (sv)
+# jMemorize-Version:  1.2.3
+# ------------------------------------------------------------------------------
+#
+# Notes:
+#   DESC is the text that will show up as tooltip.
+#   TITLE is the title of the new window / dialog.
+
+# general
+		
+General.CATEGORY          = Kategori
+General.CREATED           = Skapad
+General.MODIFIED          = Modifierad
+General.EXPIRES           = G�r ut
+General.LAST_TEST       = Senaste test
+General.DECK              = H�g
+General.DECKS             = H�gar
+General.FRONTSIDE         = Framsida
+General.FLIPSIDE          = Baksida
+General.OKAY              = OK
+General.APPLY             = �ndra
+General.CANCEL            = Avbryt
+General.ROOT_CATEGORY     = Alla
+General.GENERAL           = Generellt
+General.PASSED            = Avklarade
+General.UNLEARNED 		  = Ej inl�rda
+General.EXPIRED           = Utg�gna
+
+General.EMPTY_SIDES_ALERT       = Du m�ste skriva n�got p� b�gge sidor.
+General.EMPTY_SIDES_ALERT_TITLE = Kortsidor ej utfyllda
+
+# main frame
+
+MainFrame.ABOUT              = Om
+MainFrame.ABOUT_DESC         = Om detta program
+
+MainFrame.ADD_CARD           = L�gg till kort
+MainFrame.ADD_CARD_DESC      = L�gg till nytt kort
+
+MainFrame.ADD_CATEGORY       = L�gg till kategori
+MainFrame.ADD_CATEGORY_DESC  = L�gg till ny kategori
+MainFrame.ADD_CATEGORY_INPUT = Skriv namnet p� den nya kategori du vill skapa.
+
+MainFrame.CATEGORY_TREE      = Kategoritr�d
+MainFrame.CATEGORY_TREE_DESC = Visa/G�m kategoritr�det
+
+MainFrame.COPY               = Kopiera
+MainFrame.CUT                =  Klipp ut
+MainFrame.PASTE              = Klistra in
+MainFrame.DELETE             = Radera
+
+MainFrame.DELETE_CARDS_WARN       = Du kommer nu att radera {0} kort. Vill du forts�tta?
+MainFrame.DELETE_CARDS_WARN_TITLE = Radera kort
+
+MainFrame.DELETE_CATEGORY_WARN  = Om du raderar katergori {0} kommer {1} kort ocks� raderas. Vill du forts�tta?
+
+MainFrame.EDIT_CARD             = Redigera kort
+MainFrame.EDIT_CARD_DESC        = Visa och redigera kort
+
+MainFrame.ERROR_TITLE           = Fel
+MainFrame.ERROR_LOAD            = Det uppstod ett fel n�r filen skulle �ppnas: {0}.
+MainFrame.ERROR_SAVE            = Det uppstod ett fel n�r filen {0} skulle sparas. Lektionen har inte sparats.
+
+MainFrame.EXIT                  = Avsluta
+MainFrame.EXIT_DESC             = Avsluta programmet
+
+MainFrame.FILE_FILTER_DESC      = jMemorize-lektioner
+MainFrame.PDF_FILE_FILTER_DESC	= PDF - Portable Document Format (.pdf)
+
+MainFrame.FIND                  = S�k
+MainFrame.FIND_DESC             = S�k efter kort
+
+MainFrame.LEARN                 = L�r
+MainFrame.LEARN_DESC            = B�rja inl�rning med alla nya och utg�gna kort
+
+MainFrame.MENU_FILE             = Fil
+MainFrame.MENU_EDIT             = Redigera
+MainFrame.MENU_HELP             = Hj�lp
+MainFrame.MENU_LESSON           = Lektion
+
+MainFrame.NEW                   = Ny
+MainFrame.NEW_DESC           = Skapa tom lektion
+
+MainFrame.UNNAMED_LESSON        = Ny lektion
+
+MainFrame.OPEN                  = �ppna
+MainFrame.OPEN_DESC             = �ppna lektionsfil
+
+MainFrame.REMOVE_CATEGORY_TITLE = Radera kategori
+MainFrame.REMOVE_DESC           = Radera markerade kategorier
+
+MainFrame.RESET                 = �terst�ll kort
+MainFrame.RESET_DESC            = �terst�ll kortets r�knare
+MainFrame.RESET_WARN            = Du kommer nu att �terst�lla {0} kort. Vill du forts�tta?
+MainFrame.RESET_TITLE       = �terst�llning av kort
+
+MainFrame.SAVE                  = Spara
+MainFrame.SAVE_DESC             = Spara lektion
+MainFrame.SAVE_AS               = Spara som...
+MainFrame.SAVE_AS_DESC          = Spara lektion som...
+MainFrame.SAVE_MODIFIED         = Lektionen �r �ndrad. Vill du spara innan du avslutar?
+
+MainFrame.IMPORT                = Importera
+
+MainFrame.EXPORT                = Exportera
+MainFrame.EXPORT_PDF            = Portable Document Format (*.pdf)
+MainFrame.EXPORT_RTF            = Rich Text Format (*.rtf)
+MainFrame.EXPORT_PDF_DESC       = Exportera till *.pdf
+MainFrame.EXPORT_RTF_DESC       = Exportera till *.rtf
+MainFrame.EXPORT_CLEAN          = Lektion utan personlig inl�rningsinformation
+
+MainFrame.PREFERENCES           = Inst�llningar
+MainFrame.PREFERENCES_DESC      = �ndra dina inst�llningar
+
+MainFrame.CONFIRM_OVERWRITE_TITLE = Skriva �ver fil?
+MainFrame.CONFIRM_OVERWRITE = Filen existerar redan. Vill du ers�tta den?
+
+MainFrame.SELECT_CHARACTER_SET  = V�lj filens teckens�tt
+MainFrame.CHARACTER_SET         = Teckens�tt
+
+# files
+
+File.CSV                     = Kommaseparerade f�lt (*.csv)
+File.TSV                     = Tabbseparerade f�lt (*.tsv)
+
+# web sites
+
+URL.MAINTAINPAGE             = Behålla sida
+URL.HOMEPAGE                 = Hemsida
+URL.MANUAL                   = Anv�ndarhandledning
+URL.FEATURE_TRACKER          = Feature-lista
+URL.BUG_TRACKER              = Bugg-lista
+
+# preferences
+
+Preferences.USE_GZIP            = Komprimera lektionerna i GZIP-format.
+Preferences.LANGUAGE            = Spr�k
+Preferences.RESTART             = Ditt nya spr�kval kommer att tr�da i kraft n�sta g�ng du startar programmet.
+
+Preferences.FONT_SETTINGS       = Teckensnitt-inst�llningar
+Preferences.FONT                = Teckensnitt
+Preferences.SIZE                = Storlek
+Preferences.PREVIEW             = F�rhandsvisning
+
+# card table
+
+CardTable.COLUMNS               = Kolumner
+CardTable.NO_DATE_DESC          = Detta kortet har inte testats.
+CardTable.NOT_LEARNED           = Ej inl�rt
+CardTable.PATH                  = S�kv�g
+CardTable.SELECTED_CARDS        = Valda kort
+
+# deck chart
+
+DeckChart.CARDS              = Kort
+DeckChart.START_DECK         = Starth�g
+DeckChart.SUMMARY            = �versikt
+DeckChart.EXPIRED_CARDS      = Utg�ngna kort
+DeckChart.LEARNED_CARDS      = Inl�rda kort
+DeckChart.UNLEARNED_CARDS    = Ej inl�rda kort
+
+Summary.LEARNED              = Inl�rda
+Summary.FAILED               = Missade
+Summary.RELEARNED            = �terinl�rda
+Summary.SKIPPED              = �verhoppade
+
+# deck table
+
+DeckTable.NEXT_DECK          = N�sta h�g
+DeckTable.NEXT_DECK_DESC     = Visa n�sta h�g
+DeckTable.PREV_DECK          = F�reg�ende h�g
+DeckTable.PREV_DECK_DESC     = Visa f�reg�ende h�g
+
+# card editting
+
+EditCard.DETAILS_RATIO        = Inl�rningskvot
+EditCard.DETAILS_HISTORY     = Inl�rningshistorik
+
+EditCard.MODIFIED_WARN       = Detta kortet har �ndrats, vill du spara innan du forts�tter?
+EditCard.MODIFIED_WARN_TITLE = Kortet har �ndrats.
+
+EditCard.NEXT_CARD         = N�sta kort
+EditCard.NEXT_CARD_DESC    = Visa n�sta kort
+
+EditCard.PREV_CARD         = F�reg�ende kort
+EditCard.PREV_CARD_DESC    = Visa f�reg�ende kort
+
+EditCard.REMOVE_CARD       = Radera kort
+EditCard.REMOVE_CARD_DESC  = Radera nuvarande kort
+
+EditCard.REMOVE_CARD_WARN  = �r du s�ker p� att du vill radera detta kort?
+EditCard.REMOVE_CARD_WARN_TITLE = Radering av kort
+
+EditCard.RESET_CARD        = �terst�ll kort
+EditCard.RESET_CARD_DESC   = �terst�ller statistik f�r nuvarande kort
+EditCard.RESET_CARD_WARN   = Om detta kort �terst�lls kommer det att flyttas till starth�gen, �r du s�ker p� att du vill g�ra detta?
+
+EditCard.TAB_SIDES         = Sidor
+EditCard.TAB_PROPERTIES    = Egenskaper
+
+# find tool
+
+FindTool.FIND          = S�k
+FindTool.BOTH_SIDES    = B�da sidor
+FindTool.MATCH_CASE    = Tag h�nsyn till versaler och gemener
+FindTool.RESULTS       = Resultat
+FindTool.SEARCH_TEXT   = S�ktext
+FindTool.SETTINGS      = Inst�llningar
+
+# learn
+
+
+Learn.REMEMBER_THE_ANSWER    = F�rs�k att komma ih�g svaret
+Learn.DID_YOU_KNOW_ANSWER    = Kunde du svaret?
+Learn.YES                    = Ja
+Learn.NO                     = Nej
+
+Learn.CARD_COUNTER           = Kortr�knare
+Learn.FLIPPED_CARD_SIDES     = Omv�nda kortsidor
+Learn.SHOW_ANSWER            = Visa svar
+Learn.SHOW_CATEGORY          = Visa kategori
+Learn.SKIP_CARD              = Hoppa �ver kortet
+Learn.STOP                   = Avsluta inl�rning
+Learn.TIMER                  = Timer
+
+Learn.SESSION_RESULTS        = Resultat denna omg�ng
+Learn.CARD_PROGRESS          = Detta kort:
+Learn.SESSION_PROGRESS       = Denna omg�ng:
+
+# learn settings
+
+LearnSettings.ADVANCED          = Avancerat
+LearnSettings.SCHEDULING        = Kalender
+
+LearnSettings.CARDS_TO_LEARN    = Kort som skal inl�ras
+LearnSettings.LEARN_UNLEARNED_EXPIRED = L�r alla utg�nga kort samt de som �nnu ej l�rts in
+LearnSettings.LEARN_UNLEARNED   = L�r endast kort som �nnu ej l�rts in
+LearnSettings.LEARN_EXPIRED     = L�r endast utg�nga kort
+
+LearnSettings.CARDS_ORDER       = Kortens ordningsf�ljd
+LearnSettings.SHUFFLE_CARDS     = Blanda kort mellan h�gar och kategorier
+LearnSettings.GROUP_CARDS       = Gruppera kort inom kategorier under inl�rning
+LearnSettings.NATURAL_CATEGORY_ORDER = Visa kategorierna i f�rutbest�md ordningf�ljd
+LearnSettings.RANDOM_CATEGORY_ORDER = Visa kategorierne i slumpartad ordningsf�ljd
+
+LearnSettings.DELIMITERS          = Skiljetecken
+LearnSettings.CARD_LIMIT          = Antal kort
+LearnSettings.CARD_LIMIT_TEXT     = Begr�nsa antalet kort f�r denna omg�ng
+LearnSettings.TIME_LIMIT          = Tidsbegr�nsning (minuter)
+LearnSettings.TIME_LIMIT_TEXT     = Avsluta inl�rning efter en viss tid.
+LearnSettings.DONT_RETEST_FAILED  = �tertesta inte kort som missats denna omg�ng
+
+LearnSettings.SCHEDULE_PRESETS    = Kalenderf�rval
+LearnSettings.DELAY_AFTER_LEVEL   = F�rdr�jning efter niv� {0}
+LearnSettings.DAYS                = Dagar
+LearnSettings.HOURS               = Timmar
+LearnSettings.MINUTES             = Minuter
+
+LearnSettings.SIDE_MODE           = Sidindst�lling
+LearnSettings.NORMAL_MODE         = Normal inl�rning.
+LearnSettings.FLIP_MODE           = Inl�rning med omv�nda kortsidor
+LearnSettings.RANDOM_MODE         = Inl�rning med slumpartat sidval
+LearnSettings.BOTH_MODE           = L�r varje kort angivet antal g�nger
+
+LearnSettings.START         = B�rja Inl�rningsomg�ng\!
+LearnSettings.TITLE         = Inl�rningsinst�llningar
+
+# new card
+
+NewCard.ADD                 = L�gg till
+NewCard.ADD_AND_NEXT        = L�gg till och skapa n�sta
+
+NewCard.EDIT_RECENTLY       = Redigera senaste
+NewCard.EDIT_RECENTLY_DESC  = Redigera senaste skapade kort
+
+NewCard.NEW_WINDOW          = Nytt f�nster
+NewCard.NEW_WINDOW_DESC     = �ppna ett nytt f�nster
+
+NewCard.TITLE               = L�gg till kort
+
+NewCard.CLOSE_WARN          = Varning
+NewCardManager.DISMISSED_WARN = Kortdata h�ller p� att raderas. Vill du skapa kortet innan du st�nger f�nstret?
+
+# status bar
+
+StatusBar.CARDS             = Kort
+StatusBar.EXPIRED           = Utg�ngna
+StatusBar.LEARNED           = Inl�rda
+StatusBar.UNLEARNED         = Icke inl�rda
+StatusBar.PARTIAL           = Delvis inl�rda
+
+StatusBar.LEARNING_CATEGORY = Kategori
+StatusBar.CARDS_LEFT        = �terst�ende kort
+
+# strategy
+
+Strategy.LINEAR_DEFAULT_SCHEDULE  = Linj�r (Standard)
+Strategy.CONSTANT_SCHEDULE        = Konstant
+Strategy.EXPONENTIAL_SCHEDULE     = Exponentiell
+Strategy.QUADRATIC_SCHEDULE       = Kvadratisk
+Strategy.CRAM_SCHEDULE            = Snabbgenomg�ng
+Strategy.CUSTOM_SCHEDULE          = Egendefinierad
+
+# time related
+
+Time.DAYS               = dagar
+Time.ONE_DAY            = en dag
+Time.HOURS              = timmar
+Time.ONE_HOUR           = en timme
+Time.MINUTES            = minuter
+Time.ONE_MINUTE         = en minut
+Time.SECONDS            = sekunder
+
+Time.PASSED             = passerat
+
+Time.IN                 = Om {0}
+Time.AGO                = {0} sedan
+
+# learn history
+
+History.ACTION = Visa historik
+History.TITLE = Historik
+History.RECENT = Senaste omg�ngar
+History.BY_DATE = Omg�ngar per datum
+History.BY_WEEK = Omg�ngar per vecka
+History.BY_MONTH = Omg�ngar per m�nad
+History.BY_YEAR = Omg�ngar per �r
+History.SESSION_DURATION = L�ngd p� omg�ng
