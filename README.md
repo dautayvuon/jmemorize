@@ -43,24 +43,24 @@ Maintain fork of jMemorize: https://github.com/riadd/jMemorize . jMemorize is wr
     
 ## 3. Road Map
 
-   o May 2018: 
-     + Lession collection for learning English
-     + Improvement on learning interface for easier & much effective to learn
-     
-   o September 2018:
-     + Lession collection for learning Japanese
-     + Web service for storing & pulling lessions online
+o May 2018: 
+  + Lession collection for learning English
+  + Improvement on learning interface for easier & much effective to learn
+    
+o September 2018:
+  + Lession collection for learning Japanese
+  + Web service for storing & pulling lessions online
 
-   o February 2019:
-     + Lession collection for learning Chinese
-     + Android port of jMemorize
+o February 2019:
+  + Lession collection for learning Chinese
+   + Android port of jMemorize
      
-   o June 2019:
-     + Lession collection for learning French
-     + iOS port of jMemorize
+o June 2019:
+  + Lession collection for learning French
+  + iOS port of jMemorize
 
-   o October 2019:
-     + Lession collection for learning German
-     + Web port of jMemorize
+o October 2019:
+  + Lession collection for learning German
+  + Web port of jMemorize
 
    
