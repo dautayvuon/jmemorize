@@ -37,9 +37,8 @@ Maintain fork of jMemorize: https://github.com/riadd/jMemorize . jMemorize is wr
     
 ## 2. Maintainer
 
-    This software is maintaining and continue to be developed by Garden Strawberry (dautayvuon@gmail.com) and
-    licensed under the GPL license. A copy of the GPL license is 
-    provided with this sourcecode.
+    This software is being maintained and continue to be developed by Garden Strawberry (dautayvuon@gmail.com).
+    
     
 ## 3. Road Map
 
